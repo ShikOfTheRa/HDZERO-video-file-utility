@@ -7,7 +7,8 @@
 ##
 Instructions:
 <ul class="task-list">
-<li>Download HDZERO TS Utility.bat and ffmpeg.exe into a folder</li>
+<li>Download and extract files from link below</li>
+<li>HDZERO TS Utility.bat and ffmpeg.exe should be in the extracted folder</li>
 <li>Add TS files in folder to covert</li>
 <li>Run / click on HDZERO TS Utility.bat</li>
 </ul>
