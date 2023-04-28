@@ -11,8 +11,10 @@
 ##
 Installation:
 <ul class="task-list">
-<li>Download and extract files from link below</li>
-<li>Trun TS2MP4.bat and select install</li>
+<li>Download files from link below</li>
+<li>Extract files into a temporary folder</li>
+<li>Run TS2MP4.bat and select install</li>
+<li>Downloaded zip / temporary folder may be removed</li>
 </ul>
 
 ##
@@ -25,4 +27,5 @@ User Instructions:
 
 ##
 Download:
-https://github.com/ShikOfTheRa/HDZERO-video-file-utility/archive/refs/tags/1.0.zip
+https://github.com/ShikOfTheRa/HDZERO-video-file-utility/archive/refs/tags/2.0.zip
+
