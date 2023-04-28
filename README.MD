@@ -1,16 +1,25 @@
 ## HDZERO utility for manipulating TS video files
 
-1 - joining multiple HDZERO TS files into one larger MP4 file
+1 - converting multiple TS files into multiple MP4 files
 
-2 - creating an upscaled file for improved youtube display.
+2 - converting a single TS file into a single MP4 file
+
+3 - joining multiple HDZERO TS files into one larger MP4 file
+
+4 - converting TS file to and pscaled MP4 file for improved youtube encoding (SLOW)
 
 ##
-Instructions:
+Installation:
 <ul class="task-list">
 <li>Download and extract files from link below</li>
-<li>HDZERO TS Utility.bat and ffmpeg.exe should be in the extracted folder</li>
-<li>Add TS files in folder to covert</li>
-<li>Run / click on HDZERO TS Utility.bat</li>
+<li>Trun TS2MP4.bat and select install</li>
+</ul>
+
+##
+User Instructions:
+<ul class="task-list">
+<li>Win 10: Right click on TS file(s) in folder to covert</li>
+<li>Win 11: Right click on TS file(s), select "show more options" to access context menu for converting</li>
 </ul>
 
 For MS Windows only
