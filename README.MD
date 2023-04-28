@@ -6,7 +6,7 @@
 
 3 - joining multiple HDZERO TS files into one larger MP4 file
 
-4 - converting TS file to and upscaled MP4 file for improved youtube encoding (VERY SLOW)
+4 - converting TS file to and upscaled MP4 file for improved youtube encoding (WARNING - VERY SLOW)
 
 ##
 Installation:
