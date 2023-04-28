@@ -27,5 +27,5 @@ User Instructions:
 
 ##
 Download:
-https://github.com/ShikOfTheRa/HDZERO-video-file-utility/archive/refs/tags/2.0.zip
+https://github.com/ShikOfTheRa/HDZERO-video-file-utility/archive/refs/tags/1.0.zip
 
