@@ -1,4 +1,4 @@
-## HDZERO utility for manipulating TS video files
+## HDZERO utility for manipulating TS video files ( Right click & convert to MP4 !)
 
 1 - converting multiple TS files into multiple MP4 files
 
