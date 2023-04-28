@@ -11,10 +11,9 @@ if [%1]==[] goto TASK_menu
 @echo off
 cls
 set PROCESSERROR=0
-cd %app_path%
 if exist running.txt del running.txt
 if exist filelist.txt del filelist.txt
-del /f *.hdz >NUL
+if exist *.hdz del /f *.hdz >NUL
 timeout /t 2 /nobreak >NUL
 
 :: Start
@@ -42,12 +41,12 @@ if %ERRORLEVEL% NEQ 0 (SET PROCESSERROR=1)
 :: Concatenate smaller TS Files to a single MP4
 for /f "tokens=1-8 delims=:./ " %%G in ("%date%/%time%") do (set filedate=%%I_%%H_%%G_%%J_%%K)
 
-ffmpeg.exe -y -f concat -safe 0 -i filelist.txt -c copy HDZERO_%filedate%.mp4
+%app_path%ffmpeg -y -f concat -safe 0 -i filelist.txt -c copy HDZERO_%filedate%.mp4
 if %ERRORLEVEL% NEQ 0 (SET PROCESSERROR=1)
 
 :: Upscale if specified
 
-if 2==%1 ffmpeg.exe -y -i HDZERO_%filedate%.mp4 -vf scale=iw*2:ih*2 -preset slow -crf 18 UPSCALED_HDZERO_%filedate%.mp4
+if 2==%1 %app_path%ffmpeg -y -i HDZERO_%filedate%.mp4 -vf scale=iw*2:ih*2 -preset slow -crf 18 UPSCALED_HDZERO_%filedate%.mp4
 if %ERRORLEVEL% NEQ 0 (SET PROCESSERROR=1)
 
 :: Clean up
@@ -55,7 +54,7 @@ if %ERRORLEVEL% NEQ 0 (SET PROCESSERROR=1)
 if exist running.txt del running.txt
 if %ERRORLEVEL% NEQ 0 (SET PROCESSERROR=1)
 
-del /f *.hdz >NUL
+if exist *.hdz del /f *.hdz >NUL
 
 if exist filelist.txt del filelist.txt
 if %ERRORLEVEL% NEQ 0 (SET PROCESSERROR=1)
