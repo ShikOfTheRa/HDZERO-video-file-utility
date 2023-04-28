@@ -6,7 +6,7 @@
 
 3 - joining multiple HDZERO TS files into one larger MP4 file
 
-4 - converting TS file to and pscaled MP4 file for improved youtube encoding (SLOW)
+4 - converting TS file to and upscaled MP4 file for improved youtube encoding (SLOW)
 
 ##
 Installation:
@@ -20,9 +20,8 @@ User Instructions:
 <ul class="task-list">
 <li>Win 10: Right click on TS file(s) in folder to covert</li>
 <li>Win 11: Right click on TS file(s), select "show more options" to access context menu for converting</li>
+<li>Untested on other windws versions</li>
 </ul>
-
-For MS Windows only
 
 ##
 Download:
